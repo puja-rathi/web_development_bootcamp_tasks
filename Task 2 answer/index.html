@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Resume</title>
+	<!--Internal Style-->
 	<style>
 		body{
 			font-family:'Times New Roman', Times, serif;
@@ -11,26 +12,28 @@
 		}
 		nav>ul{
 			display: flex;
-			justify-content:right;
+			background-color: gray;
+			padding-left: 20%;
+			line-height: 40px;	
 		}
-		nav>ul>li{
+		nav>ul>li
+		{
 			list-style: none;
 			margin-left: 25px;
+		}
+		nav>ul>li>a{
+			text-decoration: none;
+			font-size: 18px;
+			color: white;
 		}
 		#profile img{
 			height:100px;
 			width:80px;
 		}
-		#contact_details>div>ul{
-			display: flex;
-		}
-		#contact_details>div>ul>li{
-			list-style: none;
-			margin: 0 0 0 10px;
-		}
 	</style>
 </head>
 <body>
+	<!--Header & navigation section-->
     <header>
         <nav>
             <ul>
@@ -55,15 +58,17 @@
             </ul>
         </nav>
     </header>
-    <main>
 
+	<!--Main section of CV with inner sections which are linked with navigation-->
+    <main>
+		<!--Profile section-->
         <section id="profile">
             <img src="images/IMG_6472.JPG" alt="profile pic">
 			<p><b>PUJA RATHI</b></p>
-
         </section>
 		<hr>
 
+		<!--About Me section-->
         <section id="bio">
 				<h4>About Me</h4>
 				<p>Hello! I'm Puja Rathi, a passionate and detail-oriented individual with a love for problem-solving and creativity. I thrive in dynamic environments where I can apply my skills and contribute meaningfully.</p>
@@ -83,6 +88,7 @@
         </section>
 		<hr>
 
+		<!--Skills section-->
         <section id="skills">
 
 				<h4>Soft Skills</h4>
@@ -111,6 +117,7 @@
         </section>
 		<hr>
 
+		<!--Education section-->
         <section id="education">
 			<h4>Qualification</h4>
 			<ol>
@@ -133,6 +140,7 @@
         </section>
 		<hr>
 
+		<!--Work Experience section-->
         <section id="work_experience">
 			<h4>Work Experience</h4>
 			<h5><b>Software Engineer</b> at <a href="https://greycube.in/">GreyCube Technologies</a></h5>
@@ -162,24 +170,19 @@
 		<hr>
 	</main>
 
+	<!--Contact Details-->
 	<footer>
         <section id="contact_details">
 			<h4>Contact Information</h4>
       		<div>
-        		<i>Email:</i> <a href="#">example@gmail.com</a><br>
-        		<i>Contact Number:</i> +1234567890
-			</div>
-			<div>
-			  <h5>Connect with me on</h5>
-			  <ul>
-				<li><a href="https://linkedin.com/in/myname" target="_blank">LinkedIn</a></li>
-				<li><a href="https://twitter.com/myname" target="_blank">Github</a></li>
-			  </ul>
+        		<p><i>Email:</i> <a href="#">example@gmail.com</a></p>
+        		<p><i>Contact Number:</i> +1234567890</p>
+				<p><i>LinkdIn Connect:</i> <a href="https://linkedin.com/in/myname" target="_blank">LinkedIn</a></p>
+				<p><i>Github Connect:</i> <a href="https://twitter.com/myname" target="_blank">Github</a></p>
+
 			</div>
         </section>
 	</footer>
-    
-    
 
 </body>
 </html>

@@ -1,0 +1,82 @@
+body {
+    background-color: lightgray;
+    font-family: Arial, sans-serif;
+    margin: 40px!important;
+   
+}
+header{
+    text-align: center;
+    margin: 50px;
+}
+.menu{
+    margin: 0 auto;
+    width: 50%;
+    align-items: center;
+}
+.menu>ul>li{
+    list-style: none;
+    float: left;
+    margin-left: 40px; 
+}
+.menu>ul>li>a{
+    text-decoration: none;
+}
+#image{
+    text-align: center;
+}
+figure img{
+    height: 200px;
+    width: 180px;
+    border:1px solid blue;
+}
+#image figcaption{
+    padding: 10px;
+    font-weight: bold;
+    font-size: 20px;
+}
+h1{
+    padding: 10px 20px;
+    color: brown;
+}
+h3{
+    width: 25%;
+    margin: 0 auto;
+}
+h1,h2,h3{
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+}
+#para1{
+    color:navy;
+    text-align: justify;
+}
+#timeline{
+    text-align: left;
+}
+.cadet-blue {
+    background-color: CadetBlue;
+    
+}
+.facts{
+    font-size: 25px;
+    line-height: 20px;
+    color: plum;
+    font-family: monospace;
+    padding: 4px;
+    margin-left: 6px;
+}
+#quote{
+    text-align: center;
+    border:1px dashed brown;
+}
+div{ 
+    border: 2px solid red;
+    border-radius: 5px;
+    margin-top:5px;
+}
+#footer{
+    text-align: right;
+}
+aside{
+    margin: 20px;
+}
