@@ -1,0 +1,34 @@
+/* Common styling */
+.periodic-table {
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    /* grid-template-columns: repeat(auto-fit, minmax(80px, 1fr)); */
+    gap: 10px;
+    row-gap: 30px;
+}
+.element {
+    background-color:lightgoldenrodyellow;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    font-size: 4vh;   
+}
+body{
+    background-color: lightgrey;
+}
+
+/* Responsive styling at breakpoint of 768px */
+@media (max-width: 768px) {
+    .periodic-table {
+        display: none; /* Hide the table */
+    }
+    
+    /* Display periodic table image */
+    body {
+        background-image: url(images/periodic_table_image.png);
+        background-size:contain;
+        background-repeat:no-repeat;
+        height: 100vh;
+        background-color: white;
+    }
+}
