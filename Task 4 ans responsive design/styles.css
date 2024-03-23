@@ -1,0 +1,117 @@
+/* Common styling */
+ * {
+    margin: 0; 
+    padding: 0;
+ }
+.alkali-metal,
+.metalloid {
+   background: #4C8DB5;                                  
+}
+
+/* Alkaline Earth, Non Metal & Actinides*/
+.alkaline-earth,
+.non-metals,
+.actinides  {
+   background:#65B1A9;
+}
+/* Transition Metals */
+.transition-metals {
+   background: #4fbb62;
+}
+/* Post Transition */
+.post-transition-metals {
+   background: #F53951;
+}
+
+/* Hallogen */
+.halogen {
+   background: #ff4500;
+}
+
+/* Noble Gas & Lanthanides */
+.noble-gas,
+.lanthanides {
+   background: #DE684E;
+}
+ .number {
+    font-size: 0.7rem;
+    font-weight: 100;
+ }
+ .symbol {
+    font-size: 1.1rem;
+    font-weight: 600;
+ }
+ .element {
+    font-size: 0.5rem;
+    font-weight: 400;
+ }
+ .group {
+    font-size: 0.6rem;
+    font-weight: 400;
+ }
+ body {
+   font-family:Arial, Helvetica, sans-serif;
+   font-size: 0.6rem;
+   color:black;
+   background-color: lightgrey; 
+}
+ .container {
+    display: grid;
+    grid-template-columns: repeat(18, auto);
+    gap: 0.5rem;
+    width: 100%; 
+    margin:0 auto !important;
+    height: auto;
+ }
+ .box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding: 0.4rem;
+    width:auto;
+ }
+ 
+ /* Grid positions */
+ .box:first-child {
+    grid-column: 1;
+ }
+ .box:nth-child(2) {
+    grid-column: 18;
+ }
+ .box:nth-child(4) {
+    grid-column: 2;
+ }
+ .box:nth-child(5) {
+    grid-column: 13;
+ }
+ .box:nth-child(12) {
+    grid-column: 2;
+ }
+ .box:nth-child(13) {
+    grid-column: 13;
+ }
+ 
+
+/* Responsive styling at breakpoint of 768px */
+@media (max-width: 768px) {
+   *{
+      margin:0;
+      padding:0;
+   }
+    .container {
+        display: none; /* Hide the table */
+    }
+    
+    /* Display periodic table image */
+    body {
+        background-image: url(images/color_periodic_table_img.jpg);
+        background-size: contain;
+        background-position: center center;
+        background-repeat:no-repeat;
+        height: 100vh;
+        background-color: white;
+    }
+
+}
