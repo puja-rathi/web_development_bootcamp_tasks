@@ -1,0 +1,12 @@
+.bought{
+    color:green;
+    font-size: 18px;
+}
+.delete{
+    cursor: pointer;
+    float: right;
+    margin-right: 85%;
+}
+.hide{
+    display: none;
+}
