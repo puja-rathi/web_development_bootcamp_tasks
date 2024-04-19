@@ -1,0 +1,4 @@
+/* Applied a line-through text decoration to style the bought items */
+.checked {
+  text-decoration: line-through;
+}
