@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Application</title>
+</head>
+<body>
+    <h1>Current Weather</h1>
+
+    <!-- input textbox to enter city name -->
+    <label for="city">Enter City:</label>
+
+    <!-- here, default city name Paris is used -->
+    <input type="text" id="city" placeholder="Enter city name or cordinates" value="Paris">
+
+    <!-- when button will click, it will call function getWeather to get weather data -->
+    <button onclick="getWeather()">Get Weather</button><br>
+    
+    <!-- create div element to display fetched data in it -->
+    <div id="weather"></div>
+
+    <script src="weather.js"></script>
+</body>
+</html>
