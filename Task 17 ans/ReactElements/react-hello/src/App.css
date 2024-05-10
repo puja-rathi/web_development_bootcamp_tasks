@@ -1,0 +1,31 @@
+.App {
+  background-color: aqua;
+}
+.userDetails {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.userDetails h2 {
+  text-align: center!important;
+}
+.userDetails > p {
+  margin-left: 10px;
+}
+
+.userDetails ul {
+  margin: 5px 0;
+}
+
+.userDetails ul li {
+  list-style: none;
+}
+
+.userDetails img {
+  align-self: flex-end; 
+  margin-top: auto; 
+  margin-left: auto; 
+  height: 130px; 
+  width: auto; 
+  margin-right: 5rem;
+}
